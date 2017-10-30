@@ -7,6 +7,7 @@ class Movie():
         """ This constructor takes the given params when objects of
             the movie type are created and sets them to the proper
             instance variables """
+        
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
