@@ -1,2 +1,4 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Static Movie trailer website generator
+This code generates a static movie trailer website.
+
+
