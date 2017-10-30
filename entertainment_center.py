@@ -1,8 +1,8 @@
 import media
 import fresh_tomatoes
 
-#Each of these objects is a movie, the params being the details of the movie
-#This data is used by fresh_tomatoes.py to build the website
+# Each of these objects is a movie, the params being the details of the movie
+# This data is used by fresh_tomatoes.py to build the website
 perks_of_being_a_wallflower = media.Movie("Perks of Being a Wallflower",
                             "Socially awkward teen Charlie (Logan Lerman) is a wallflower, \
                             always watching life from the sidelines, until two charismatic students become his mentors.",
@@ -18,8 +18,8 @@ nineteen_eighty_four = media.Movie("1984", "A man loses his identity while livin
                    "https://upload.wikimedia.org/wikipedia/en/c/c4/Nineteen_Eighty_Four.jpg",
                    "https://www.youtube.com/watch?v=Z4rBDUJTnNU")
 
-#This list is made so that we can pass the objects to the open_movies_page
-#function within fresh_tomatoes.py
+# This list is made so that we can pass the objects to the open_movies_page function within fresh_tomatoes.py
 movie_list = [perks_of_being_a_wallflower, v_for_vendetta, nineteen_eighty_four]
 
+# This sends the list to the open_movies_page function within fresh_tomatoes, which in turn generates and opens the page
 fresh_tomatoes.open_movies_page(movie_list)
